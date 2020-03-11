@@ -1,4 +1,3 @@
-# - *- coding: utf- 8 - *-
 import requests
 import json
 import browserOps
@@ -15,7 +14,7 @@ thread_count = 8
 
 # :param size spefific size for purchase
 def url_gen(model,size):
-    url = 'https://www.adidas.com/us/yeezy/{}.html?forceSelSize='.format(model) + str(size)
+    url = 'https://www.adidas.com/us/{}.html?forceSelSize='.format(model) + str(size)
     return url
 
 # :param model specific model of sneaker
